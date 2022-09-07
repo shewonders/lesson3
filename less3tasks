@@ -1,0 +1,77 @@
+#task 1
+# def mydivision():
+#     x = int(input("Type the numerator:"))
+#     y = int(input("Type the denominator:"))
+#     if y == 0:
+#         print("No division by O, type the arguments again")
+#     else:
+#         print(f"{x} divided by {y} is {x/y}")
+# mydivision()
+
+#task 2
+# def yellowpages():
+#     lname = input("Type a person's last name ")
+#     fname = input("Type the person's first name ")
+#     yob = input("Type the person's year of birth ")
+#     city = input("Type their city of residence ")
+#     email = input("Now, type their email ")
+#     tel = input("Lastly, type their telephone number ")
+#     print(f"Personal info: {fname} {lname}, born in {yob}, resides in {city}. Their e-mail is {email}, and their telephone number is {tel}")
+# yellowpages()
+
+#task 3
+# def my_func(x, y, z):
+#     if x > y:
+#         p = x
+#     else:
+#         p = y
+#         if x > z:
+#             p1 = x
+#         else:
+#             p1 = z
+#     m = (p + p1)
+#     print(f"The sum of your two largest numbers is {m}")
+# my_func(4, 10, 14)
+
+# task4-1
+# def my_func(x,y):
+#     n = -1
+#     p = 1
+#     while n >= int(y):
+#         p = p / x
+#         n = n - 1
+#     print(f"{x} to the {y}th degree is {p}")
+# my_func(10,-5)
+
+#task4-2
+# def my_func(x,y):
+#     p = x ** y
+#     print(f"{x} to the {y}th degree is {p}")
+# my_func(4,-3)
+
+# task5
+# def summa():
+#     li = input("Type a number of integers separated by spaces. Use STOP to halt the summing").split()
+#     s = 0
+#     for el in li:
+#         if el == "stop":
+#             print(f"The sum of your numbers is {s}. Operation stopped after {li.index(el)} additions. Thanks for using SUMMA")
+#             break
+#         else:
+#             s = s + int(el)
+#     print(f"The sum of all yor numbers is {s}")
+# summa()
+
+# task 6
+# def int_func():
+#     li = input("Type a lower-case word ").capitalize()
+#     print(li)
+# int_func()
+
+task7 - НЕ ПОНЯЛА, КАК И ЗАЧЕМ ИСПОЛЬЗОВАТЬ ПРЕДЫДУЩУЮ ФУНКЦИЮ
+def int_func():
+    li = input("Type a sentence of lower-case words separated by spaces: ")
+    li1 = li.title()
+    print(li1)
+int_func()
+
